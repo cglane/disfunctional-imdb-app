@@ -21,8 +21,6 @@ module.exports = Backbone.View.extend({
     'click #submitted': 'submitForm',
     'click #edit':'onEditReturn',
     'dblclick .movie': 'editPost',
-
-
   },
   submitForm: function (e) {
     e.preventDefault();
